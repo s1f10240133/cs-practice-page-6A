@@ -1,0 +1,24 @@
+.back-to-home {
+    display: inline-block;
+    padding: 10px; /* ボタンの内側の余白を設定 */
+    border-radius: 25px; /* ボタンの角を丸くする */
+    text-decoration: none; /* リンクの下線を消す */
+    background-color: #d61dc4; /* ボタンの背景色 */
+    transition: background-color 0.3s ease; /* 背景色変更のトランジション設定 */
+    text-align: center; /* 画像を中央に配置 */
+  }
+  
+  /* 画像のスタイル */
+  .back-to-home img {
+    width: 51px; /* 画像の幅を設定 */
+    height: 34px; /* 画像の高さを設定 */
+    vertical-align: middle; /* 画像の縦方向の配置を中央にする */
+  }
+  
+  /* ホバー時のスタイル */
+  .back-to-home:hover {
+    background-color: #d61dc4; /* ホバー時の背景色 */
+  }
+h1{
+    
+}
