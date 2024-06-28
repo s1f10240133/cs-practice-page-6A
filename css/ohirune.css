@@ -1,22 +1,56 @@
 /* リンク全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.song {
+  margin-bottom: 40px;
+}
+
+.song h2 {
+  color: #333;
+}
+
+.song img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.song p {
+  color: #666;
+}
+
 .back-to-home {
-    display: inline-block;
-    padding: 10px; /* ボタンの内側の余白を設定 */
-    border-radius: 25px; /* ボタンの角を丸くする */
-    text-decoration: none; /* リンクの下線を消す */
-    background-color: #d61dc4; /* ボタンの背景色 */
-    transition: background-color 0.3s ease; /* 背景色変更のトランジション設定 */
-    text-align: center; /* 画像を中央に配置 */
-  }
-  
-  /* 画像のスタイル */
-  .back-to-home img {
-    width: 51px; /* 画像の幅を設定 */
-    height: 34px; /* 画像の高さを設定 */
-    vertical-align: middle; /* 画像の縦方向の配置を中央にする */
-  }
-  
-  /* ホバー時のスタイル */
-  .back-to-home:hover {
-    background-color: #d61dc4; /* ホバー時の背景色 */
-  }
+  display: inline-block;
+  padding: 10px; /* ボタンの内側の余白を設定 */
+  border-radius: 25px; /* ボタンの角を丸くする */
+  text-decoration: none; /* リンクの下線を消す */
+  background-color: #D61DC4; /* ボタンの背景色 */
+  transition: background-color 0.3s ease; /* 背景色変更のトランジション設定 */
+  text-align: center; /* 画像を中央に配置 */
+}
+
+/* 画像のスタイル */
+.back-to-home img {
+  width: 51px; /* 画像の幅を設定 */
+  height: 34px; /* 画像の高さを設定 */
+  vertical-align: middle; /* 画像の縦方向の配置を中央にする */
+}
+
+/* ホバー時のスタイル */
+.back-to-home:hover {
+  background-color: #D61DC4; /* ホバー時の背景色 */
+}
